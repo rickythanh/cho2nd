@@ -4,7 +4,7 @@ import { isNumeric } from '../../helpers/general';
 
 const CurrencyFormatter = ({
   amount,
-  currency = 'USD',
+  currency = 'VND',
   appendZero = false,
   useDollar = false,
 }) => {
@@ -45,8 +45,8 @@ const CurrencyFormatter = ({
 
   const priceComponent = (
     <>
-      <span>{symbol}</span>
       <span>{formattedPrice}</span>
+      <span>{symbol}</span>
     </>
   );
 

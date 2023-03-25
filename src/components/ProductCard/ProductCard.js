@@ -8,6 +8,7 @@ import CurrencyFormatter from '../CurrencyFormatter';
 const ProductCard = (props) => {
   const [isWishlist, setIsWishlist] = useState(false);
   const {
+    index,
     image,
     imageAlt,
     name,
@@ -19,7 +20,7 @@ const ProductCard = (props) => {
   } = props;
 
   const handleRouteToProduct = () => {
-    navigate('/product/sample');
+    navigate(`/product/sample?idx=${index}`);
   };
 
   const handleQuickView = (e) => {

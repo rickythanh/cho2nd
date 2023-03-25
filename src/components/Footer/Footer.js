@@ -38,7 +38,30 @@ const Footer = (prop) => {
       </ul>
     );
   };
-
+  
+  return (
+    <div className={styles.root}>
+      <div className={styles.contentBottomContainer}>
+        <Container size={'large'} spacing={'min'}>
+          <div className={styles.contentBottom}>
+            <div className={styles.settings}>
+              {/* <Dropdown
+                label={'Country/Region'}
+                optionList={Config.currencyList}
+              />
+              <Dropdown label={'Language'} optionList={Config.languageList} /> */}
+            </div>
+            <div className={styles.copyrightContainer}>
+              <div className={styles.creditCardContainer}></div>
+              <span>
+                {new Date().getFullYear()} (c) . Built by{' Cư dân Chung cư Mỹ Phúc'}
+              </span>
+            </div>
+          </div>
+        </Container>
+      </div>
+    </div>
+  );
   return (
     <div className={styles.root}>
       <Container size={'large'} spacing={'min'}>

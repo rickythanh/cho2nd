@@ -21,16 +21,21 @@ import { navigate } from 'gatsby';
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
 const ProductPage = (props) => {
+  const { pathname, search } = props.location;
+  const getParam = /(\d+)(?!.*\d)/;
+  const idx = search !== '' ? Number(search.match(getParam)[0]) : 0;
+
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
-  const sampleProduct = generateMockProductData(1, 'sample')[0];
+  const sampleProduct = generateMockProductData(10, 'toi-di-buon')[idx];
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
-  const [activeSwatch, setActiveSwatch] = useState(
-    sampleProduct.colorOptions[0]
-  );
+  // const [activeSwatch, setActiveSwatch] = useState(
+  //   sampleProduct.colorOptions[0]
+  // );
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
-  const suggestions = generateMockProductData(4, 'woman');
+  // const suggestions = generateMockProductData(4, 'woman');
+  const suggestions = generateMockProductData(100, 'toi-di-buon');
 
   return (
     <Layout>
@@ -56,7 +61,7 @@ const ProductPage = (props) => {
                 <CurrencyFormatter appendZero amount={sampleProduct.price} />
               </div>
 
-              <div>
+              {/* <div>
                 <SwatchList
                   swatchList={sampleProduct.colorOptions}
                   activeSwatch={activeSwatch}
@@ -70,7 +75,7 @@ const ProductPage = (props) => {
                   activeSize={activeSize}
                   setActiveSize={setActiveSize}
                 />
-              </div>
+              </div> */}
 
               <div className={styles.quantityContainer}>
                 <span>Quantity</span>
@@ -78,7 +83,7 @@ const ProductPage = (props) => {
               </div>
 
               <div className={styles.actionContainer}>
-                <div className={styles.addToButtonContainer}>
+                {/* <div className={styles.addToButtonContainer}>
                   <Button
                     onClick={() => showNotification()}
                     fullWidth
@@ -86,7 +91,7 @@ const ProductPage = (props) => {
                   >
                     Add to Bag
                   </Button>
-                </div>
+                </div> */}
                 <div
                   className={styles.wishlistActionContainer}
                   role={'presentation'}
@@ -104,11 +109,11 @@ const ProductPage = (props) => {
               </div>
 
               <div className={styles.description}>
-                <p>{sampleProduct.description}</p>
-                <span>Product code: {sampleProduct.productCode}</span>
+                <p style={{ whiteSpace: "pre-line" }}>{sampleProduct.description.split("<br/>").join("\n")}</p>
+                {/* <span>Product code: {sampleProduct.productCode}</span> */}
               </div>
 
-              <div className={styles.informationContainer}>
+              {/* <div className={styles.informationContainer}>
                 <Accordion
                   type={'plus'}
                   customStyle={styles}
@@ -132,22 +137,22 @@ const ProductPage = (props) => {
                     {sampleProduct.description}
                   </p>
                 </Accordion>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={styles.suggestionContainer}>
-            <h2>You may also like</h2>
+            <h2>Có thể bạn sẽ thích</h2>
             <ProductCardGrid
               spacing
               showSlider
               height={400}
-              columns={4}
+              columns={5}
               data={suggestions}
             />
           </div>
         </Container>
 
-        <div className={styles.attributeContainer}>
+        {/* <div className={styles.attributeContainer}>
           <Split
             image={'/cloth.png'}
             alt={'attribute description'}
@@ -159,7 +164,7 @@ const ProductPage = (props) => {
             cta={() => navigate('/blog')}
             bgColor={'var(--standard-light-grey)'}
           />
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

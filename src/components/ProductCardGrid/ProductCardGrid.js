@@ -18,6 +18,7 @@ const ProductCardGrid = (props) => {
       return (
         <ProductCard
           key={index}
+          index={index}
           height={height}
           price={product.price}
           imageAlt={product.alt}

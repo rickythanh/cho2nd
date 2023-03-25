@@ -1,115 +1,214 @@
 [
     {
-        "productCode": "MJUM8066-GYDZ",
-        "name": "Lambswool Crew Neck Jumper",
-        "vendor": "Sunspel",
-        "price": 75,
-        "alt": "lambswool crew neck jumper",
-        "image": "/products/pdp1.jpeg",
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Bộ nồi chảo Brabantia Harmony của Đức",
+        "vendor": "Brabantia",
+        "price": 1500000,
+        "alt": "Brabantia",
+        "image": "/products/Brabantia_Harmony_1.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {"color": "#000000", "title": "Anthracite Melange"}
         ],
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "sizeOptions": ["xs"],
         "wishlist": true,
-        "tags": ["sample"],
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 3.586.000đ",
+        "description": "*** Lỗi móp nhẹ ở chảo lớn<br/>- Chất liệu: inox 18/10, tay cầm bằng nhựa chịu nhiệt. <br/>- Sử dụng được trên tất cả các loại bếp kể cả bếp điện từ.<br/>- Sử dụng được trong máy rửa chén, lò nướng.<br/>- Bộ nồi gồm:<br/>o Nồi 16cm, 3.1 lít<br/>o Nồi 20cm, 1.8 lít<br/>o Chảo chiên 1 quai 20cm <br/>o Chảo chiên 1 quai 24cm<br/>Mã sản phẩm: 30004314<br/>",
         "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
+            {"image": "/products/Brabantia_Harmony_1.jpg", "alt": "Brabantia Harmony"},
+            {"image": "/products/Brabantia_Harmony_2.jpg", "alt": "Brabantia Harmony"},
+            {"image": "/products/Brabantia_Harmony_3.jpg", "alt": "Brabantia Harmony"},
+            {"image": "/products/Brabantia_Harmony_4.png", "alt": "Brabantia Harmony"}
+        ]
+    },
+    {
+        "productCode": "MJUM8066-GYDZ2",
+        "name": "Máy cạo râu Braun series 1 của Đức xuất Nhật",
+        "vendor": "Braun",
+        "price": 500000,
+        "alt": "Braun",
+        "image": "/products/Braun_series1_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
         ],
-        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 1.350.000đ",
+        "description": "- Máy cạo râu Braun Series 1 130s<br/>- Máy cạo râu Braun - giải pháp cạo râu nhanh chóng và dễ dàng<br/> Máy cạo râu Braun cung cấp tất cả các loại lợi ích so với việc cạo râu bằng dao cạo ướt. Chúng mang lại cho bạn sự gần gũi cần thiết để có kết quả suôn sẻ kéo dài cả ngày. Việc kéo và giật ít có thể gây kích ứng trong hoặc sau khi cạo râu. Chúng cũng dễ sử dụng, ít lộn xộn và quy -trình vệ sinh đơn giản. Tóm lại, máy cạo râu Braun là giải pháp cạo râu nhanh chóng và dễ dàng.<br/>- Braun Series 1 130S-1 sử dụng lưỡi Gillette để tạo sự gần gũi và thoải mái đặc biệt<br/>- Braun Series 1 130S-1 hoàn toàn có thể vệ sinh dễ dàng dưới vòi nước<br/>- Đầu máy cạo râu chính xác mỏng và lưỡi dao Gillette cho độ chính xác và thoải mái<br/>- Có thể rửa hoàn toàn dưới vòi nước để cạo sạch mỗi ngày<br/>- vì vậy bạn có thể dễ dàng làm sạch đầu cạo và lá cạo để đảm bảo bạn cạo râu sạch sẽ mà ít bị kích ứng.<br/>",
+        "gallery": [
+            {"image": "/products/Braun_series1_1.jpg", "alt": "Braun series1"},
+            {"image": "/products/Braun_series1_2.jpg", "alt": "Braun series1"},
+            {"image": "/products/Braun_series1_3.jpg", "alt": "Braun series1"},
+            {"image": "/products/Braun_series1_4.png", "alt": "Braun series1"}
+        ]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
-        "tags": ["shirt", "men"]
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Smart tivi TCL 55 inch độ phân giải 4K",
+        "vendor": "TCL",
+        "price": 4500000,
+        "alt": "Bose",
+        "image": "/products/Smart tivi TCL 55_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 8.000.000đ",
+        "description": "",
+        "gallery": [
+            {"image": "/products/Smart tivi TCL 55_1.jpg", "alt": "Smart tivi TCL 55"},
+            {"image": "/products/Smart tivi TCL 55_2.jpg", "alt": "Smart tivi TCL 55"},
+            {"image": "/products/Smart tivi TCL 55_3.jpg", "alt": "Smart tivi TCL 55"}
+        ]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Lọc không khí Xiaomi Mi Air Purifier 2S chính hãng",
+        "vendor": "Xiaomi",
+        "price": 1100000,
+        "alt": "Xiaomi",
+        "image": "/products/Xiaomi Mi Air Purifier 2S_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 2.800.000đ",
+        "description": "Máy lọc không khí thông minh Xiaomi 2S là phiên bản nâng cấp của máy lọc không khí.<br/>Về mặt kích thước, phiên bản 2S cân nặng chỉ 4.5kg & (24 x 24 x 52cm).<br/> Bên cạnh đó, thiết bị có dạng hình hộp chữ nhật đứng, các góc được xử lý bằng công nghệ CNC hiện đại tạo nên độ cong hoàn hảo, thẩm mỹcao.<br/> Về cơ bản, máy lọc không khí Xiaomi 2S gồm 3 bộ phận chính :<br/>1. Lõi lọc không khí và có thể tháo rời khỏi máy để vệ sinh,<br/>2. Bộ cánh quạt hút khí được tích hợp trên nóc máy và thân máy<br/>3. Vỏ máy được gia công từ chất liệu nhựa chống cháy nổ | PVC & ABS Cao cấp.<br/>▶▶▶ Trên vỏ máy có các lỗ thoát khí nhỏ để không khí sạch được thoát ra ngoài.<br/>➖ Ở phiên bản máy lọc thông minh Xiaomi 2S đã tích hợp cảm biến nhiệt độ & độ ẩm trên máy để máy<br/>Không những vậy, cảm biến laser trên máy còn có khả năng phát hiện ra những loại bụi bẩn có kích thước chỉ 0.3 micro mét.<br/>Từ đó bạn có thể dễ dàng điều chỉnh và thay đổi thiết bị cho phù hợp bản thân hơn<br/>➖ Điểm đặc biệt trong Máy lọc không khí thông minh Xiaomi 2S chính là thiết kế màn hình OLED (Organic Light – Emitting Diode)<br/>Màn hình dạng tròn thanh lịch trên thân máy. <br/>Màn hình OLED này sẽ đảm nhận chức năng hiển thị thông số ngắn gọn, súc tích để người dùng có thể dễ dàng quan sát và nhận biết.<br/>➖ Máy lọc không khí Xiaomi 2S còn được trang bị lõi lọc 3 lớp<br/>Có khả năng lọc sạch bụi bẩn với kích thước vô cùng nhỏ, đem lại một bầu không khí sạch sẽ không còn chút bụi cho căn phòng nhà bạn.<br/>➖Đặc biệt, nhờ công nghệ RFID (Radio frequency identification) là công nghệ nhận diện đối tượng bằng sóng vô tuyến<br/>Bạn có thể dễ dàng reset lại toàn bộ hệ thống lõi lọc trong máy.<br/>Bên cạnh đó, máy lọc không khí lần này của Xiaomi có thể kết nối với được với sóng wifi từ đó kết nối với smartphone của bạn<br/>Dễ dàng cập nhật nhanh chóng những thay đổi trong điều kiện không khí quanh nhà<br/>➖ Sản phẩm có thể dễ dàng điều khiển thông qua app Mihome với giao diện tiếng Anh<br/>",
+        "gallery": [
+            {"image": "/products/Xiaomi Mi Air Purifier 2S_1.jpg", "alt": "Xiaomi Mi Air Purifier 2S"}
+        ]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Bose sport earbuds",
+        "vendor": "Bose",
+        "price": 2000000,
+        "alt": "Bose",
+        "image": "/products/Bose_sport_earbuds_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 5.000.000đ",
+        "description": "- Bose Sport Eabuds dành cho đối tượng yêu thích thể thao với khả năng chống nước<br/>- Sản phẩm được trang bị Bluetooth V5.1, có thời lượng pin sử dụng liên tục 6h cùng khả năng sạc nhanh.<br/>- Bose đã trang bị cảm ứng cho sản phẩm mới nhất của mình thay vì sử dụng phím cơ như thế hệ trước.<br/>- Bose Sport Earbuds với thiết kế nhỏ gọn hơn thế hệ trước<br/>- Với những nâng cấp mạnh về âm thanh, cho âm bass căng đầy và độ chi tiết cao<br/>",
+        "gallery": [
+            {"image": "/products/Bose_sport_earbuds_1.jpg", "alt": "Bose sport earbuds"},
+            {"image": "/products/Bose_sport_earbuds_1.jpg", "alt": "Bose sport earbuds"},
+            {"image": "/products/Bose_sport_earbuds_3.jpg", "alt": "Bose sport earbuds"},
+            {"image": "/products/Bose_sport_earbuds_4.jpg", "alt": "Bose sport earbuds"}
+        ]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Bose soundlink seri 3 của Mỹ",
+        "vendor": "Bose",
+        "price": 4000000,
+        "alt": "Bose",
+        "image": "/products/Bose_soundlink3_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 8.300.000đ",
+        "description": "Loa di động cao cấp bose soundlink 3 dành cho iPhone, iPod, iPad ......<br/>Nghe nhạc bất cứ lúc nào, bất cứ nơi đâu mà bạn muốn.<br/>Chất lượng âm thanh trung thực, mạnh mẽ với các kỹ thuật độc quyền của Bose<br/>Sử dụng công nghệ Bluetooth cho khả năng phát nhạc không dây với các thiết bị di động<br/>Hỗ trợ cổng AUX cho phép phát nhạc trên các thiết bị không hỗ trợ Bluetooth<br/>Sử dụng cả 2 nguồn pin sạc tích hợp và nguồn điện<br/>Pin sạc tích hợp sẵn trong một thiết kế nhỏ gọn cho tính di động cao có thể chơi nhạc đến 14 giờ<br/>Kích thước: 13.15 x 25.6 x 2.84 cm Trọng lượng: 1.37 kg",
+        "gallery": [
+            {"image": "/products/Bose_soundlink3_1.jpg", "alt": "Bose soundlink 3"},
+            {"image": "/products/Bose_soundlink3_2.jpg", "alt": "Bose soundlink 3"},
+            {"image": "/products/Bose_soundlink3_3.jpg", "alt": "Bose soundlink 3"},
+            {"image": "/products/Bose_soundlink3_4.jpg", "alt": "Bose soundlink 3"}
+        ]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Bose sounddock seri 2 của Mỹ",
+        "vendor": "Bose",
+        "price": 1900000,
+        "alt": "Bose",
+        "image": "/products/Bose Sounddock2_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 6.000.000đ",
+        "description": "Được sản xuất dành riêng cho các sản phẩm của Apple như Ipod, Iphone<br/> - Cực kỳ tiện lợi vì có thể dùng ở bất cứ đâu, bất cứ thể loại nhạc nào vì âm thanh được đánh giá là cân bằng nhất trong tất cả các loại sounddock hiện có trên thị trường<br/>- Khi ở một mình trong phòng thì không phải bàn<br/>- Nhưng đi Picnic, party lại càng tiện lợi<br/>- Bass chắc, khỏe và đặc biệt vô cùng dày dặn ( hơn hẳn với sounddock I).<br/>- Mid kế thừa được từ sound dock I nghe khá thoáng<br/>- Treble cũng được cải tiến nhiều hơn, tách bạch hơn nhiều so với phiên bản I<br/>- Áp dụng công nghệ chống nhiễu mới nhất của bose, dù nghe maximum cũng không bị rè<br/>- So sánh với 1 bộ loa 5.1, Bose SoudDock II nhỉnh hơn hẳn ở độ dày của bass, âm thanh cũng sâu hơn rất nhiều.<br/>- Thiết kế gọn gàng, phù hợp với cả với những thiết bị audio khác(MP3 player, CD player). Đây chính là điều mà Bose SoundDock I không có.<br/>",
+        "gallery": [
+            {"image": "/products/Bose Sounddock2_1.jpg", "alt": "Bose Sounddock2"},
+            {"image": "/products/Bose Sounddock2_1.jpg", "alt": "Bose Sounddock2"},
+            {"image": "/products/Bose Sounddock2_1.jpg", "alt": "Bose Sounddock2"}
+        ]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Dây đeo đồng hồ X-Doria chính hãng",
+        "vendor": "Bose",
+        "price": 200000,
+        "alt": "Bose",
+        "image": "/products/x-doria_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 950.000đ",
+        "description": "- Dây Apple Watch bằng Silicon khóa chớp cao cấp màu Tím, size 43mm<br/>- Dây Apple Watch bằng Silicon khóa chớp cao cấp màu Xanh navi, size 38mm<br/>",
+        "gallery": [
+            {"image": "/products/x-doria_1.jpg", "alt": "x-doria"},
+            {"image": "/products/x-doria_2.jpg", "alt": "x-doria"},
+            {"image": "/products/x-doria_3.jpg", "alt": "x-doria"}
+        ]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Bộ đế sạc nhanh không dây 2 trong 1 Baseus",
+        "vendor": "Bose",
+        "price": 200000,
+        "alt": "Bose",
+        "image": "/products/Baseus_2in1_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 579.000đ",
+        "description": "Đế sạc nhanh không dây chuẩn Qi dùng cho Smartphone Android/ iPhone/ Airpods<br/>Có thể sạc cùng lúc 2 điện thoại . <br/>Công suất tối đa : 18W<br/>- Samsung + Android 10W + 5W<br/>- iPhone + iPhone - 7.5W + 7.5W<br/>- iPhone + AirPods - 7.5W + 2.5W<br/>Chất liệu : aluminum alloy + tempered glass + PC<br/>Màu sắc : Đen, Trắng, Trong suốt<br/>Input : Type-C , DC 9V/2A Max<br/>*Khuyến cáo: sản phẩm nên dùng với củ sạc (adapter) hỗ trợ 18W/quick charge 3.0 trở lên.<br/>",
+        "gallery": [
+            {"image": "/products/Baseus_2in1_1.jpg", "alt": "Baseus_2in1"},
+            {"image": "/products/Baseus_2in1_2.jpg", "alt": "Baseus_2in1"},
+            {"image": "/products/Baseus_2in1_3.jpg", "alt": "Baseus_2in1"}
+        ]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Zippo chính hãng Mỹ",
+        "vendor": "Zippo",
+        "price": 450000,
+        "alt": "Zippo",
+        "image": "/products/zippo_my_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 700.000đ",
+        "description": "",
+        "gallery": [
+            {"image": "/products/zippo_my_1.jpg", "alt": "zippo"},
+            {"image": "/products/zippo_my_2.jpg", "alt": "zippo"},
+            {"image": "/products/zippo_my_3.jpg", "alt": "zippo"}
+        ]
     }
   ]

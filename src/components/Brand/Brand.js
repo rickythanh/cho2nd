@@ -6,12 +6,14 @@ import * as styles from './Brand.module.css';
 const Brand = (props) => {
   return (
     <div
-      className={styles.root}
+      // className={styles.root}
       role={'presentation'}
       onClick={() => navigate('/')}
     >
-      {/* <h4>SYDNEY</h4> */}
-      <svg
+      <p style={{fontWeight: 700, fontSize: 21}}>Hàng thanh lý: củ, mới</p>
+      <p style={{fontWeight: 500, fontSize: 19}}>Ship từ số nhà 30A16</p>
+      <p style={{fontWeight: 500, fontSize: 19}}>Liên hệ: 0919.938.839 (Ánh) - 097.8587.002 (Thanh)</p>
+      {/* <svg
         width={127}
         height={24}
         xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +43,7 @@ const Brand = (props) => {
           fill="currentColor"
           d="M121.59.48V1l2.4,1-4.87,10.72L114.39,3.2a5.11,5.11,0,0,0-1.67-2,4.47,4.47,0,0,0-2.65-.7h-4V1l1.6.48,6.56,13.12v7.36l-1.92.48v.48h9.12V22.4l-1.92-.48V14.24l5.6-12.32,2.56-1V.48Z"
         />
-      </svg>
+      </svg> */}
     </div>
   );
 };

@@ -1,147 +1,110 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
+import * as styles from './shop.module.css';
 
-import AttributeGrid from '../components/AttributeGrid';
+import Banner from '../components/Banner';
+import Breadcrumbs from '../components/Breadcrumbs';
+import CardController from '../components/CardController';
 import Container from '../components/Container';
-import Hero from '../components/Hero';
-import BlogPreviewGrid from '../components/BlogPreviewGrid';
-import Highlight from '../components/Highlight';
-import Layout from '../components/Layout/Layout';
-import ProductCollectionGrid from '../components/ProductCollectionGrid';
+import Chip from '../components/Chip';
+import Icon from '../components/Icons/Icon';
+import Layout from '../components/Layout';
+import LayoutOption from '../components/LayoutOption';
 import ProductCardGrid from '../components/ProductCardGrid';
-import Quote from '../components/Quote';
-import Title from '../components/Title';
+import { generateMockProductData } from '../helpers/mock';
+import Button from '../components/Button';
+import Config from '../config.json';
+import axios from 'axios';
 
-import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
+const ShopPage = (props) => {
+  const [showFilter, setShowFilter] = useState(false);
+  const [data, setData] = useState([]);
+  // const data = generateMockProductData(6, 'woman');
 
-import * as styles from './index.module.css';
-import { Link, navigate } from 'gatsby';
+  useEffect(() => {
+    window.addEventListener('keydown', escapeHandler);
+      // axios.get('https://api.npoint.io/303751ffe8c96773989d').then(res => {
+      //   // setData(res.data);
+      //   setData(generateMockProductData(6, 'tai-nghe'));
+      // });
+      setData(generateMockProductData(100, 'toi-di-buon'));
+    return () => window.removeEventListener('keydown', escapeHandler);
+  }, []);
 
-const IndexPage = () => {
-  const newArrivals = generateMockProductData(3, 'shirt');
-  const blogData = generateMockBlogData(3);
-
-  const goToShop = () => {
-    navigate('/shop');
+  const escapeHandler = (e) => {
+    if (e?.keyCode === undefined) return;
+    if (e.keyCode === 27) setShowFilter(false);
   };
 
   return (
-    <Layout disablePaddingBottom>
-      {/* Hero Container */}
-      <Hero
-        maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
-      />
-
-      {/* Message Container */}
-      <div className={styles.messageContainer}>
-        <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
-      </div>
-
-      {/* Collection Container */}
-      <div className={styles.collectionContainer}>
-        <Container size={'large'}>
-          <Title name={'New Collection'} />
-          <ProductCollectionGrid />
-        </Container>
-      </div>
-
-      {/* New Arrivals */}
-      <div className={styles.newArrivalsContainer}>
-        <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
-          <ProductCardGrid
-            spacing={true}
-            showSlider
-            height={480}
-            columns={3}
-            data={newArrivals}
-          />
-        </Container>
-      </div>
-
-      {/* Highlight  */}
-      <div className={styles.highlightContainer}>
-        <Container size={'large'} fullMobile>
-          <Highlight
-            image={'/highlight.png'}
-            altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
-            miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
-            link={'/shop'}
-          />
-        </Container>
-      </div>
-
-      {/* Promotion */}
-      <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
-        <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
-        </div>
-      </div>
-
-      {/* Quote */}
-      <Quote
-        bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
-        quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
-        }
-      />
-
-      {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
-        <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
-          <BlogPreviewGrid data={blogData} />
-        </Container>
-      </div>
-
-      {/* Promotion */}
-      <div className={styles.sustainableContainer}>
-        <Hero
-          image={'/banner3.png'}
-          title={'We are Sustainable'}
+    <Layout>
+      <div className={styles.root}>
+        {/* <Container size={'large'} spacing={'min'}>
+          <div className={styles.breadcrumbContainer}>
+            <Breadcrumbs
+              crumbs={[
+                { link: '/', label: 'Home' },
+                { link: '/', label: 'Woman' },
+                { label: 'Sweaters' },
+              ]}
+            />
+          </div>
+        </Container> */}
+        {/* <Banner
+          maxWidth={'650px'}
+          name={`Woman's Sweaters`}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
           }
-          ctaText={'read more'}
-          maxWidth={'660px'}
-          ctaStyle={styles.ctaCustomButton}
-        />
+        /> */}
+        <Container size={'large'} spacing={'min'}>
+          {/* <div className={styles.metaContainer}>
+            <span className={styles.itemCount}>476 items</span>
+            <div className={styles.controllerContainer}>
+              <div
+                className={styles.iconContainer}
+                role={'presentation'}
+                onClick={() => setShowFilter(!showFilter)}
+              >
+                <Icon symbol={'filter'} />
+                <span>Filters</span>
+              </div>
+              <div
+                className={`${styles.iconContainer} ${styles.sortContainer}`}
+              >
+                <span>Sort by</span>
+                <Icon symbol={'caret'} />
+              </div>
+            </div>
+          </div> */}
+          <CardController
+            closeFilter={() => setShowFilter(false)}
+            visible={showFilter}
+            filters={Config.filters}
+          />
+          {/* <div className={styles.chipsContainer}>
+            <Chip name={'XS'} />
+            <Chip name={'S'} />
+          </div> */}
+          <div className={styles.productContainer}>
+            <span className={styles.mobileItemCount}>476 items</span>
+            <ProductCardGrid
+              data={data}
+              height={300}
+              columns={5}
+            ></ProductCardGrid>
+          </div>
+          {/* <div className={styles.loadMoreContainer}>
+            <span>6 of 456</span>
+            <Button fullWidth level={'secondary'}>
+              LOAD MORE
+            </Button>
+          </div> */}
+        </Container>
       </div>
 
-      {/* Social Media */}
-      <div className={styles.socialContainer}>
-        <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
-        />
-        <div className={styles.socialContentGrid}>
-          <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
-          <img src={`/social/socialMedia2.png`} alt={'social media 2'} />
-          <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
-          <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
-        </div>
-      </div>
-      <AttributeGrid />
+      {/* <LayoutOption /> */}
     </Layout>
   );
 };
 
-export default IndexPage;
+export default ShopPage;
