@@ -155,7 +155,7 @@
 .copyrightContainer span{
     color: var(--standard-white);
     display: block;
-    margin-top: 32px;
+    /* margin-top: 32px; */
     font-size: 12px;
     line-height: 15px;
 }
@@ -211,7 +211,7 @@
     }
 
     .copyrightContainer {
-        margin-top: 40px;
+        /* margin-top: 40px; */
         align-items: center;
     }
 

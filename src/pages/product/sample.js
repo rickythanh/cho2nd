@@ -26,8 +26,8 @@ const ProductPage = (props) => {
   const idx = search !== '' ? Number(search.match(getParam)[0]) : 0;
 
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
-  const showNotification = ctxAddItemNotification.showNotification;
-  const sampleProduct = generateMockProductData(10, 'toi-di-buon')[idx];
+  // const showNotification = ctxAddItemNotification.showNotification;
+  const sampleProduct = generateMockProductData(100, 'toi-di-buon')[idx];
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
   // const [activeSwatch, setActiveSwatch] = useState(

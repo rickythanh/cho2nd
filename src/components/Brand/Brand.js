@@ -6,13 +6,13 @@ import * as styles from './Brand.module.css';
 const Brand = (props) => {
   return (
     <div
-      // className={styles.root}
+      className={styles.root}
       role={'presentation'}
       onClick={() => navigate('/')}
     >
-      <p style={{fontWeight: 700, fontSize: 21}}>Hàng thanh lý: củ, mới</p>
-      <p style={{fontWeight: 500, fontSize: 19}}>Ship từ số nhà 30A16</p>
-      <p style={{fontWeight: 500, fontSize: 19}}>Liên hệ: 0919.938.839 (Ánh) - 097.8587.002 (Thanh)</p>
+      {/* <p style={{fontWeight: 700, fontSize: 21}}>Hàng thanh lý: cũ, mới</p> */}
+      {/* <p style={{fontWeight: 500, fontSize: 19}}>Ship từ số nhà A1630</p> */}
+      <p style={{fontWeight: 400, fontSize: 18}}>Liên hệ: 0919.938.839 (Ánh) - 097.8587.002 (Nhân)</p>
       {/* <svg
         width={127}
         height={24}

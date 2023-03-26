@@ -20,13 +20,15 @@ const ShopPage = (props) => {
   const [data, setData] = useState([]);
   // const data = generateMockProductData(6, 'woman');
 
-  useEffect(() => {
+  useEffect(async () => {
     window.addEventListener('keydown', escapeHandler);
-      // axios.get('https://api.npoint.io/303751ffe8c96773989d').then(res => {
-      //   // setData(res.data);
-      //   setData(generateMockProductData(6, 'tai-nghe'));
+    setData(generateMockProductData(100, 'toi-di-buon'));
+    // const procuct = await generateMockProductData(10, 'toi-di-buon');
+    // setData(procuct);
+      // axios.get('https://api.npoint.io/5a88f9ff36682b22f559').then(res => {
+      //   setData(res.data);
+      //   // setData(generateMockProductData(100, 'toi-di-buon'));
       // });
-      setData(generateMockProductData(100, 'toi-di-buon'));
     return () => window.removeEventListener('keydown', escapeHandler);
   }, []);
 
@@ -86,7 +88,7 @@ const ShopPage = (props) => {
             <Chip name={'S'} />
           </div> */}
           <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
+            {/* <span className={styles.mobileItemCount}>476 items</span> */}
             <ProductCardGrid
               data={data}
               height={300}

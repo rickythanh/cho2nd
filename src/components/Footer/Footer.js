@@ -52,8 +52,9 @@ const Footer = (prop) => {
               <Dropdown label={'Language'} optionList={Config.languageList} /> */}
             </div>
             <div className={styles.copyrightContainer}>
-              <div className={styles.creditCardContainer}></div>
+              
               <span>
+                <span>Ship từ số nhà A16.30</span>
                 {new Date().getFullYear()} (c) . Built by{' Cư dân Chung cư Mỹ Phúc'}
               </span>
             </div>

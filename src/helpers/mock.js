@@ -1,8 +1,11 @@
 import productJson from './product.json';
 import blogJson from './blog.json';
+
+let cache_product = false;
 /**
 
 */
+
 function generateMockProductData(count, tag) {
   const products = productJson;
   const filtered = products.filter((item) => item.tags.includes(tag));
