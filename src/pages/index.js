@@ -17,12 +17,12 @@ import axios from 'axios';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);
-  const [data, setData] = useState([]);
-  // const data = generateMockProductData(6, 'woman');
+  // const [data, setData] = useState([]);
+  const data = generateMockProductData(100, 'toi-di-buon');
 
-  useEffect(async () => {
+  useEffect(() => {
     window.addEventListener('keydown', escapeHandler);
-    setData(generateMockProductData(100, 'toi-di-buon'));
+    // setData(generateMockProductData(100, 'toi-di-buon'));
     // const procuct = await generateMockProductData(10, 'toi-di-buon');
     // setData(procuct);
       // axios.get('https://api.npoint.io/5a88f9ff36682b22f559').then(res => {

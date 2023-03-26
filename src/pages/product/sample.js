@@ -35,7 +35,7 @@ const ProductPage = (props) => {
   // );
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
   // const suggestions = generateMockProductData(4, 'woman');
-  const suggestions = generateMockProductData(100, 'toi-di-buon');
+  const suggestions = generateMockProductData(10, 'toi-di-buon');
 
   return (
     <Layout>
