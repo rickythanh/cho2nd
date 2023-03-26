@@ -1,6 +1,50 @@
 [
     {
         "productCode": "MJUM8066-GYDZ1",
+        "name": "Ghế ăn dặm boppy của Mỹ chính hãng",
+        "vendor": "boppy",
+        "price": 400000,
+        "alt": "boppy",
+        "image": "/products/boppy chair_1.png",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 49.7USD",
+        "description": "Boppy Baby Chair, Elephant Walk Gray:<br/>- Age Range: 3 to 12 months<br/>- Use as booster seat, high chair and floor chair<br/>- Removable bolster and tray included<br/>- Folds down and has handle for easy travel<br/>- Passes all US safety standards for booster seats<br/>- Wipeable fabric<br/>",
+        "gallery": [
+            {"image": "/products/boppy chair_1.png", "alt": "boppy chair"},
+            {"image": "/products/boppy chair_2.jpg", "alt": "boppy chair"},
+            {"image": "/products/boppy chair_3.jpg", "alt": "boppy chair"},
+            {"image": "/products/boppy chair_4.jpg", "alt": "boppy chair"}
+        ]
+    },
+    {
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Đồ Chơi Lego Classic 10696 chính hãng",
+        "vendor": "Lego",
+        "price": 250000,
+        "alt": "Brabantia",
+        "image": "/products/Lego Classic 10696_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 1.269.000đ",
+        "description": "- Nằm trong bộ chủ đề Lego Classic, LEGO® Medium Creative Brick Box LEGO 10696 gồm 484 chi tiết, dành cho trẻ trên 4 tuổi, là món đồ chơi thú vị và hấp dẫn. Trẻ có thể sử dụng các viên gạch đầy màu sắc, cùng với sự sáng tạo và tư duy để hoàn thành đoàn tàu lửa, ngôi nhà với cối xay gió to lớn, xe ô tô, cá sấu, chú hổ hung dữ... hoặc bất kỳ mô hình gì tùy theo sở thích và khả năng. Đặc biệt, bộ sản phẩm gồm các chi tiết đôi mắt, cánh cửa, bánh xe,... cho phép trẻ tạo nên các con vật, đồ vật ngộ nghĩnh, đáng yêu mà mình yêu thích. LEGO 10696 sẽ mang lại cho trẻ những phút giây vui chơi thú vị khi được tự mình tưởng tượng và mày mò lắp ghép, rèn luyện tính tỉ mỉ cũng như khơi gợi khả năng tư duy vàsáng tạo ở từng trẻ.<br/>- Thương hiệu đồ chơi LEGO, đồ chơi xếp hình LEGO nổi tiếng, được làm từ những chất liệu cao cấp, đảm bảo an toàn cho người chơi. Những chủ đề nổi bật nhất của LEGO là: LEGO Ninjago, LEGO Super Heroes, LEGO Technic, LEGO Star Wars, LEGO Bionicle, Lego City và LEGO Nexo Knights, ... Đồchơi LEGO là thương hiệu đồ chơi bằng nhựa cao cấp dành cho mọi lứa tuổi do Tập đoàn đồ chơi LEGO (Đan Mạch) sản xuất.<br/>- Những bộ mô hình đồ chơi LEGO chính hãng được làm từ nhựa ABS cao cấp an toàn cho người chơi. Đây là những bộ mô hình không thể thiếu dành chonhững ai thực sự đam mê sưu tầm đồ chơi LEGO.<br/>",
+        "gallery": [
+            {"image": "/products/Lego Classic 10696_1.jpg", "alt": "Lego Classic 10696"},
+            {"image": "/products/Lego Classic 10696_2.jpg", "alt": "Lego Classic 10696"},
+            {"image": "/products/Lego Classic 10696_3.jpg", "alt": "Lego Classic 10696"},
+            {"image": "/products/Lego Classic 10696_4.jpg", "alt": "Lego Classic 10696"}
+        ]
+    },
+    {
+        "productCode": "MJUM8066-GYDZ1",
         "name": "Bộ nồi chảo Brabantia Harmony của Đức",
         "vendor": "Brabantia",
         "price": 1500000,
@@ -85,7 +129,49 @@
     },
     {
         "productCode": "MJUM8066-GYDZ1",
-        "name": "Bose sport earbuds",
+        "name": "Tai nghe Bose SoundSport Free true wireless",
+        "vendor": "Bose",
+        "price": 1500000,
+        "alt": "Bose",
+        "image": "/products/Bose SoundSport Free_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 4.690.000đ",
+        "description": "- Bose Sport Eabuds dành cho đối tượng yêu thích thể thao với khả năng chống nước<br/>- Sản phẩm được trang bị Bluetooth V5.1, có thời lượng pin sử dụng liên tục 6h cùng khả năng sạc nhanh.<br/>- Bose đã trang bị cảm ứng cho sản phẩm mới nhất của mình thay vì sử dụng phím cơ như thế hệ trước.<br/>- Bose Sport Earbuds với thiết kế nhỏ gọn hơn thế hệ trước<br/>- Với những nâng cấp mạnh về âm thanh, cho âm bass căng đầy và độ chi tiết cao<br/>",
+        "gallery": [
+            {"image": "/products/Bose SoundSport Free_1.jpg", "alt": "Bose SoundSport Free"},
+            {"image": "/products/Bose SoundSport Free_2.jpg", "alt": "Bose SoundSport Free"},
+            {"image": "/products/Bose SoundSport Free_3.jpg", "alt": "Bose SoundSport Free"}
+        ]
+    },
+    {
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Tai nghe JBL tune500bt",
+        "vendor": "JBL",
+        "price": 450000,
+        "alt": "JBL",
+        "image": "/products/jbl_tune500bt_1.jpg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"}
+        ],
+        "sizeOptions": ["xs"],
+        "wishlist": true,
+        "tags": ["toi-di-buon"],
+        "meta": "Giá hãng: 4.690.000đ",
+        "description": "- JBL Tune500BT: Tai nghe cho giới trẻ năng động<br/>- Nhằm mang đến trải nghiệm âm thanh tuyệt vời nhất, JBL cho ra mắt sản phẩm JBL Tune500BT, ẩn sâu phía trong thiết kế đầy cá tính là củ loa 32mm mang đến chất âm bass cực kỳ mạnh mẽ như bạn đang được tận hưởng tại các buổi hòa nhạc hay phòng thu âm. Với thiết kế gọn nhẹ, khả năng gập thông minh cùng chức năng nghẹ cuộc gọi, JBL T500 sẽ là người bạn đồng hành tuyệt vời cho bạn trong cả công việc và giải trí hàng ngày<br/>- Thiết kế trẻ trung, năng động<br/>- Tai nghe bluetooth JBL Tune500BT có thiết kế dạng tai nghe chụp tai không dây trẻ trung và phù hợp với giới trẻ năng động. Kiểu dáng không dây giúp người dùng có trải nghiệm tuyệt vời hơn, nghe nhạc mọi lúc mà không bị vướng víu dây tai nghe. Hai bên Earcup được được thiết kế rất gọn vừa vặn để đặt lên tai, lớp đệm tai của ear-cup tạo cảm giác mềm mại, dễ chịu khi đeo trong thời gian dài sẽ không gây đau.<br/>- Bên ngoài của tai nghe hãng thiết kế hai logo JBL sáng bóng tạo nên sự cao cấp cho cả chiếc tai nghe. Cùng với đó hệ thống phím tắt điều khiển được đặt ở một bên Ear-cup để bạn thuận tiện điều chỉnh mà không cần phải chạm tay vào điện thoại. Gọng của tai nghe được làm vô cùng chắc chắn bằng nhựa, nhưng bên trong là lõi kim loại mền khiến việc điều chỉnh chiếc tai nghe trở nên thuận tiện hơn.<br/>- Chất âm sống động<br/>- Chiếc tai nghe được  trang bị driver 32mm, tai nghe JBL Tune500BT mang đến chất lượng âm thanh mạnh mẽ, trung thực, sống động. Âm bass dày và chắc trong khi âm cao và âm trung trong trẻo, ấm và thể hiện tốt nhiều thể loại âm nhạc đặc biệt là các bài hát nhẹ nhàng, sâu lắng, trữ tình.<br/>- Tai nghe có tần số âm thanh từ 20Hz đến 20kHz, trở kháng 32 Ohm, tai nghe bluetooth JBL Tune500BT sẽ mang đến cho bạn chất lượng âm thanh tuyệt vời, truyền đạt âm thanh hoàn hảo.<br/>- JBL Pure Bass Sound<br/>- JBL Tune500BT tự hào sở hữu công nghệ âm thanh huyền thoại của JBL, “JBL Pure Bass Sound”, những tinh hoa trong hơn 80 năm trong lĩnh vực âm thanh được JBL nghiên cứu và tích hợp vào trong cùng với đó là củ loa có kích thước lên tới 32mm  bạn sẽ tận được tận hưởng chất âm trầm, ấm và cực kỳ uy lực.<br/>- Ciri và Google now<br/>- Nghe bài hát yêu thích, nhắn tin cho bạn bè, kiểm tra thời tiết và nhiều hơn thế nữa với một nút bấm đơn giản và tiện dụng được tích hợp ngay trên earcup của JBL Tune500BT để kích hoạt ngay trợ lý ảo thông minh của bạn.<br/>- Bluetooth 4.0<br/>- Tận hưởng âm nhạc không dây hoàn toàn thoải mái với chuẩn công nghê bluetooth 4.0 tân tiến<br/>- 16h phát nhạc liên tục<br/>- Với khả năng phát nhạc 16h liên tục chỉ cần 1 lần sạc, JBL Tune500BT đã sẵn sàng cho cả ngày năng động của bạn<br/>- 1 nút điều khiển tiện dụng và microphone<br/>- Điều khiển nhạc và nhận cuộc gọi cực kỳ tiện dụng và đơn giản với 1 nút bấm trực quan được tích hợp ngay trên earcup của JBL Tune500BT.<br/>- Trọng lượng cực nhẹ, thiết kế năng động<br/>- Với trọng lượng siêu nhẹ, JBL Tune500BT sẽ luôn mang đến cảm giác thoải mái cho đôi tai dù sử dụng trong thời gian dài, thiết kế gấp tiện dụng cũng giúp JBL Tune500BT nằm gọn gàng trong balo của bạn. Bạn hoàn toàn có thể yên tâm vì JBL Tune500BT được thiết kế cực kỳ tỉ mỉ, mang đến độ bền bỉ trong nhiều năm dài.<br/>- Nếu bạn muốn sở hữu một chiếc tai nghe chất lượng, hãy đến ngay ĐỨC MẠNH AUDIO bạn nhé. Chúng tôi sẽ tư vấn đầy đủ đồng thời cung cấp sản phẩm chính hãng cùng nhiều chương trình ưu đãi dành cho bạn.<br/>",
+        "gallery": [
+            {"image": "/products/jbl_tune500bt_1.jpg", "alt": "jbl tune500bt"},
+            {"image": "/products/jbl_tune500bt_2.jpg", "alt": "jbl tune500bt"},
+            {"image": "/products/jbl_tune500bt_3.jpg", "alt": "jbl tune500bt"}
+        ]
+    },
+    {
+        "productCode": "MJUM8066-GYDZ1",
+        "name": "Bose sport earbuds true wireless",
         "vendor": "Bose",
         "price": 2000000,
         "alt": "Bose",
@@ -175,7 +261,7 @@
         "vendor": "Bose",
         "price": 200000,
         "alt": "Bose",
-        "image": "/products/Baseus_2in1_1.jpg",
+        "image": "/products/Baseus_2in1_0.png",
         "colorOptions": [
             {"color": "#000000", "title": "Anthracite Melange"}
         ],
@@ -185,6 +271,7 @@
         "meta": "Giá hãng: 579.000đ",
         "description": "Đế sạc nhanh không dây chuẩn Qi dùng cho Smartphone Android/ iPhone/ Airpods<br/>Có thể sạc cùng lúc 2 điện thoại . <br/>Công suất tối đa : 18W<br/>- Samsung + Android 10W + 5W<br/>- iPhone + iPhone - 7.5W + 7.5W<br/>- iPhone + AirPods - 7.5W + 2.5W<br/>Chất liệu : aluminum alloy + tempered glass + PC<br/>Màu sắc : Đen, Trắng, Trong suốt<br/>Input : Type-C , DC 9V/2A Max<br/>*Khuyến cáo: sản phẩm nên dùng với củ sạc (adapter) hỗ trợ 18W/quick charge 3.0 trở lên.<br/>",
         "gallery": [
+            {"image": "/products/Baseus_2in1_0.png", "alt": "Baseus_2in1"},
             {"image": "/products/Baseus_2in1_1.jpg", "alt": "Baseus_2in1"},
             {"image": "/products/Baseus_2in1_2.jpg", "alt": "Baseus_2in1"},
             {"image": "/products/Baseus_2in1_3.jpg", "alt": "Baseus_2in1"}
@@ -204,11 +291,12 @@
         "wishlist": true,
         "tags": ["toi-di-buon"],
         "meta": "Giá hãng: 700.000đ",
-        "description": "",
+        "description": "Bật lửa Zippo là sản phẩm không còn xa lạ đối với các tín đồ sành điệu trên thế giới và tại Việt Nam trong nhiều năm qua. Với mẫu mã đa dạng, thiết kế sang trọng, đẳng cấp cùng các tính năng ưu Việt sản phẩm được nhiều người tin dùng và đánh giá cao. Vậy Zippo là gì? Những đặc điểm cơ bản của dòng bật lửa này như thế nào? Bài viết dưới đây sẽ giúp bạn tìm hiểu chi tiết các thông tin về vấn đề này.",
         "gallery": [
             {"image": "/products/zippo_my_1.jpg", "alt": "zippo"},
             {"image": "/products/zippo_my_2.jpg", "alt": "zippo"},
-            {"image": "/products/zippo_my_3.jpg", "alt": "zippo"}
+            {"image": "/products/zippo_my_3.jpg", "alt": "zippo"},
+            {"image": "/products/zippo_my_4.jpg", "alt": "zippo"}
         ]
     }
   ]

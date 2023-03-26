@@ -77,10 +77,10 @@ const ProductPage = (props) => {
                 />
               </div> */}
 
-              <div className={styles.quantityContainer}>
+              {/* <div className={styles.quantityContainer}>
                 <span>Quantity</span>
                 <AdjustItem qty={qty} setQty={setQty} />
-              </div>
+              </div> */}
 
               <div className={styles.actionContainer}>
                 {/* <div className={styles.addToButtonContainer}>

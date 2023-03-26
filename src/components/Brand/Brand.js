@@ -12,7 +12,7 @@ const Brand = (props) => {
     >
       {/* <p style={{fontWeight: 700, fontSize: 21}}>Hàng thanh lý: cũ, mới</p> */}
       {/* <p style={{fontWeight: 500, fontSize: 19}}>Ship từ số nhà A1630</p> */}
-      <p style={{fontWeight: 400, fontSize: 18}}>Liên hệ: 0919.938.839 (Ánh) - 097.8587.002 (Nhân)</p>
+      <p style={{fontWeight: 400, fontSize: 18}}>Liên hệ: 094.8552.763 (Nhân)</p>
       {/* <svg
         width={127}
         height={24}
